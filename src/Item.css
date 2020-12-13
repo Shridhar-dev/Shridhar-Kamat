@@ -1,0 +1,25 @@
+.pro-img{
+    transition: 0.5s;
+    opacity: 1;
+    cursor: pointer;
+  }
+ 
+.pro-img-div{
+    position: relative;
+    
+}
+.pro-img-div > div{
+    position: absolute;
+  
+
+    display: none;
+}
+.pro-img-div:hover > img {
+    opacity: 0 !important;
+}
+.pro-img-div:hover > div {
+    display: block;
+}
+.pro-img-div:hover > div {
+    display: block;
+}
