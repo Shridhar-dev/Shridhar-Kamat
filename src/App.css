@@ -5,11 +5,10 @@
   font-family: Roboto;
 }
 i{
-  color:black;
   transition: 0.5s;
 }
 i:hover{
-  color:rgb(0,153,255)
+  color:rgb(0,153,255) !important
 
 }
 a{
