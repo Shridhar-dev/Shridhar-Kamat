@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className="App" >
+    <div className="App" style={{maxWidth:'1400px'}}>
       <div style={{borderRadius:'50%',height:'3rem',width:'3rem',backgroundColor:themeCha.text,position:'fixed',bottom:'3%',right:'2%',fontSize:'1.5rem',cursor:'pointer',zIndex:1000}} class="d-flex justify-content-center align-items-center" onClick={()=>changeTheme()}>{themeCha.btn}</div>
 
        <Theme.Provider value={{bg:themeCha.bg,text:themeCha.text}} >
